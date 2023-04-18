@@ -5,8 +5,7 @@ import MovieCard from './MovieCard';
 import SearchIcon from './search.svg';
 
 
-const ENV = process.env.REACT_APP_OMBD_API_KEY
-const API_KEY = ENV.substr(1,ENV.length-3)
+const API_KEY = process.env.REACT_APP_OMBD_API_KEY
 
 const API_URL = `http://omdbapi.com?apikey=${API_KEY}`;
 
